@@ -4,8 +4,8 @@
 2. Replace `@cowgl_dn42_bot|@cowgl` in `index.js` to `@[Your bot username`.
 3. (Optional) Run `commands.js` on your other nodes and open port 65534.
 4. Modify the `SERVERS` variable in `index.js`. Example:
-```json
-{
+```js
+const SERVERS = {
   txg: { name: "TXG 🇹🇼", id: "txg" },
   tyo: { name: "TYO 🇯🇵", id: "tyo", url: "http://tyo.node.cowgl.xyz:65534/api/run" },
   lax: { name: "LAX 🇺🇸", id: "lax", url: "http://lax.node.cowgl.xyz:65534/api/run" },
