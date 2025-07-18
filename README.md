@@ -14,5 +14,6 @@ const SERVERS = {
 }
 ```
 Leave `url` empty if the node you are hosting the bot on.
+
 5. `npm i`.
 6. Run `index.js`.
